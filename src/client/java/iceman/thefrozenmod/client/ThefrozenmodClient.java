@@ -1,0 +1,10 @@
+package iceman.thefrozenmod.client;
+
+import net.fabricmc.api.ClientModInitializer;
+
+public class ThefrozenmodClient implements ClientModInitializer {
+
+    @Override
+    public void onInitializeClient() {
+    }
+}
