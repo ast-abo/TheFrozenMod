@@ -13,9 +13,15 @@
 
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": ["iceman.thefrozenmod.client.ThefrozenmodDataGenerator"],
-    "client": ["iceman.thefrozenmod.client.ThefrozenmodClient"],
-    "main": ["iceman.thefrozenmod.Thefrozenmod"]
+    "fabric-datagen": [
+      "iceman.thefrozenmod.client.thefrozenmodDataGenerator"
+    ],
+    "client": [
+      "iceman.thefrozenmod.client.thefrozenmodClient"
+    ],
+    "main": [
+      "iceman.thefrozenmod.thefrozenmod"
+    ]
   },
 
   "mixins": [
