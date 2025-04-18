@@ -1,0 +1,20 @@
+Index: src/main/java/iceman/thefrozenmod/thefrozenmod.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package iceman.thefrozenmod;\r\n\r\nimport net.fabricmc.api.ModInitializer;\r\nimport org.slf4j.Logger;\r\nimport org.slf4j.LoggerFactory;\r\n\r\npublic class thefrozenmod implements ModInitializer {\r\n\r\n    public static final String MOD_ID = \"thefrozenmod\";\r\n    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);\r\n//\r\n     //\r\n    @Override\r\n    public void onInitialize() {\r\n        modItems.initialize();\r\n    }\r\n}\r\n 
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/iceman/thefrozenmod/thefrozenmod.java b/src/main/java/iceman/thefrozenmod/thefrozenmod.java
+--- a/src/main/java/iceman/thefrozenmod/thefrozenmod.java	(revision 381cc43941b4db57f52b29797a5ac9c3b3b58a0c)
++++ b/src/main/java/iceman/thefrozenmod/thefrozenmod.java	(date 1744944486598)
+@@ -8,8 +8,7 @@
+ 
+     public static final String MOD_ID = "thefrozenmod";
+     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+-//
+-     //
++
+     @Override
+     public void onInitialize() {
+         modItems.initialize();
