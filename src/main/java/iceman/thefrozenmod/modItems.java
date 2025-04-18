@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.type.ConsumableComponent;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
+import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
@@ -13,6 +14,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.NotNull;
 
@@ -30,9 +32,9 @@ public class modItems {
         return item;
     }
 
-    public static ConsumableComponent create(ConsumableComponent POISON_FOOD_CONSUMABLE_COMPONENT) {
-        return POISON_FOOD_CONSUMABLE_COMPONENT = ConsumableComponents.food()
-                .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.POISON, 6 * 20, 1), 1.0f))
+    private static ConsumableComponent create(StatusEffect Effect) {
+        return ConsumableComponents.food()
+                .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance((RegistryEntry<StatusEffect>) Effect, 6 * 20, 1), 1.0f))
                 .build();
     }
 
@@ -43,7 +45,7 @@ public class modItems {
     public static final Item SUSPICIOUS_SUBSTANCE = register(
             "suspicious_substance",
             Item::new,
-            new Item.Settings().food(POISON_FOOD_COMPONENT, POISON_FOOD_CONSUMABLE_COMPONENT)
+            new Item.Settings().food(POISON_FOOD_COMPONENT, create((StatusEffect) StatusEffects.POISON)
     );
 
 
