@@ -30,9 +30,11 @@ public class modItems {
         return item;
     }
 
-    public static final ConsumableComponent POISON_FOOD_CONSUMABLE_COMPONENT = ConsumableComponents.food()
-            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.POISON, 6 * 20, 1), 1.0f))
-            .build();
+    public static ConsumableComponent create(ConsumableComponent POISON_FOOD_CONSUMABLE_COMPONENT) {
+        return POISON_FOOD_CONSUMABLE_COMPONENT = ConsumableComponents.food()
+                .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.POISON, 6 * 20, 1), 1.0f))
+                .build();
+    }
 
     public static final FoodComponent POISON_FOOD_COMPONENT = new FoodComponent.Builder()
             .alwaysEdible()
