@@ -20,7 +20,7 @@ Caused by: java.lang.ExceptionInInitializerError
 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
 	... 7 more
 Caused by: java.lang.ClassCastException: class net.minecraft.registry.entry.RegistryEntry$Reference cannot be cast to class net.minecraft.entity.effect.StatusEffect (net.minecraft.registry.entry.RegistryEntry$Reference and net.minecraft.entity.effect.StatusEffect are in unnamed module of loader 'knot' @cd2dae5)
-	at knot//iceman.thefrozenmod.modItems.<clinit>(modItems.java:45)
+	at knot//iceman.thefrozenmod.ModItems.<clinit>(modItems.java:45)
 	... 9 more
 
 

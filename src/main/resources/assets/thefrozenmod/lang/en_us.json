@@ -1,5 +1,3 @@
 {
-  "item.thefrozenmod.suspicious_substance": "Suspicious Substance",
-  "item.thefrozenmod.suspicious_substance.tooltip": "This is a custom tooltip!",
-  "itemTooltip.thefrozenmod.suspicious_substance": "hi"
+  "item.thefrozenmod.cool_item": "cool_item"
 }

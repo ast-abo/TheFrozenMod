@@ -23,8 +23,8 @@ Caused by: net.minecraft.util.InvalidIdentifierException: Non [a-z0-9_.-] charac
 	at knot//net.minecraft.util.Identifier.validateNamespace(Identifier.java:249)
 	at knot//net.minecraft.util.Identifier.ofValidated(Identifier.java:39)
 	at knot//net.minecraft.util.Identifier.of(Identifier.java:43)
-	at knot//iceman.thefrozenmod.modItems.register(modItems.java:16)
-	at knot//iceman.thefrozenmod.modItems.<clinit>(modItems.java:26)
+	at knot//iceman.thefrozenmod.ModItems.register(modItems.java:16)
+	at knot//iceman.thefrozenmod.ModItems.<clinit>(modItems.java:26)
 	... 9 more
 
 

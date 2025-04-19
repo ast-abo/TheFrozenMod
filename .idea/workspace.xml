@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab6ed1f6-a5e0-48d8-bc3a-a2c12033b4a9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TheFrozenMod.client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TheFrozenMod.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TheFrozenMod.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_17_2025_9_25_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_17_2025_9_25_PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_17_2025_9_48_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    <list default="true" id="ab6ed1f6-a5e0-48d8-bc3a-a2c12033b4a9" name="Changes" comment="updated to be compatible with kaupenjoe's tutorial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/iceman/thefrozenmod/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/data/fabricDefaultResourcePacks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2025-04-15_21.31.00-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2025-04-15_21.31.00-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2025-04-17_22.32.49-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2025-04-17_22.32.49-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -31,145 +25,35 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/chunks.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/chunks.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/raids_end.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/19c68aa8-b95a-383d-a79c-e77aa512ccca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/5613b4a9-5b8c-3e0b-9915-baa04888ddd5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/56a50a28-2026-3b27-8279-243e3ff82a5a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/5cc48495-676c-3721-aed2-7336730ff405.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/5d4844c1-110f-375f-8c73-6803b7a61e5d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/610176b0-594f-3c1a-b889-ed063dbc06ea.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/74c27658-bdbf-3735-92e3-d4cbb89f0350.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/7a8e1502-fe7e-37fe-bfcf-5a4ebee14073.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/7c2fb32a-48f4-3632-92b4-de6db3581064.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/8c6477df-589c-387e-8235-e07170c95726.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/ad8236b9-e26f-349c-902e-7100197cd86d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/be5d3ae9-cfb8-3e0e-818b-c883ef6066be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/c03da6a3-8a6c-3375-a85a-97a8fae94902.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/c1896c31-8159-3c75-9e16-fc454b66b2cc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/ca1bc45b-4820-318c-8fd3-5eba4f447561.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/cf6fbb5f-ecf0-3695-8c0e-427c205e2096.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/e9573f2b-d40d-3861-93a9-09f57907533d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/f861b4cb-4ad2-3047-bede-1f92822d0050.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/fd31ce15-3baa-3523-8ee4-307bb606ee39.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/data/chunks.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/data/random_sequences.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/data/scoreboard.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/19c68aa8-b95a-383d-a79c-e77aa512ccca.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/19c68aa8-b95a-383d-a79c-e77aa512ccca.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/5613b4a9-5b8c-3e0b-9915-baa04888ddd5.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/5613b4a9-5b8c-3e0b-9915-baa04888ddd5.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/56a50a28-2026-3b27-8279-243e3ff82a5a.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/56a50a28-2026-3b27-8279-243e3ff82a5a.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/5cc48495-676c-3721-aed2-7336730ff405.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/5d4844c1-110f-375f-8c73-6803b7a61e5d.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/5d4844c1-110f-375f-8c73-6803b7a61e5d.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/610176b0-594f-3c1a-b889-ed063dbc06ea.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/610176b0-594f-3c1a-b889-ed063dbc06ea.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/74c27658-bdbf-3735-92e3-d4cbb89f0350.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/74c27658-bdbf-3735-92e3-d4cbb89f0350.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/7a8e1502-fe7e-37fe-bfcf-5a4ebee14073.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/7a8e1502-fe7e-37fe-bfcf-5a4ebee14073.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/7c2fb32a-48f4-3632-92b4-de6db3581064.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/7c2fb32a-48f4-3632-92b4-de6db3581064.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/8c6477df-589c-387e-8235-e07170c95726.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/8c6477df-589c-387e-8235-e07170c95726.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/ad8236b9-e26f-349c-902e-7100197cd86d.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/be5d3ae9-cfb8-3e0e-818b-c883ef6066be.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/be5d3ae9-cfb8-3e0e-818b-c883ef6066be.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/c03da6a3-8a6c-3375-a85a-97a8fae94902.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/c03da6a3-8a6c-3375-a85a-97a8fae94902.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/c1896c31-8159-3c75-9e16-fc454b66b2cc.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/c1896c31-8159-3c75-9e16-fc454b66b2cc.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/ca1bc45b-4820-318c-8fd3-5eba4f447561.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/ca1bc45b-4820-318c-8fd3-5eba4f447561.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/cf6fbb5f-ecf0-3695-8c0e-427c205e2096.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/cf6fbb5f-ecf0-3695-8c0e-427c205e2096.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/e9573f2b-d40d-3861-93a9-09f57907533d.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/e9573f2b-d40d-3861-93a9-09f57907533d.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/f861b4cb-4ad2-3047-bede-1f92822d0050.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/f861b4cb-4ad2-3047-bede-1f92822d0050.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/fd31ce15-3baa-3523-8ee4-307bb606ee39.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/fd31ce15-3baa-3523-8ee4-307bb606ee39.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.-1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.2.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.2.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.2.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/session.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/19c68aa8-b95a-383d-a79c-e77aa512ccca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/50e3702d-f577-3e44-8b3c-fb2dc8cfae65.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/5613b4a9-5b8c-3e0b-9915-baa04888ddd5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/56a50a28-2026-3b27-8279-243e3ff82a5a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/5cc48495-676c-3721-aed2-7336730ff405.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/5d4844c1-110f-375f-8c73-6803b7a61e5d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/610176b0-594f-3c1a-b889-ed063dbc06ea.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/74c27658-bdbf-3735-92e3-d4cbb89f0350.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/7a8e1502-fe7e-37fe-bfcf-5a4ebee14073.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/7c2fb32a-48f4-3632-92b4-de6db3581064.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/8c6477df-589c-387e-8235-e07170c95726.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/ad8236b9-e26f-349c-902e-7100197cd86d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/be5d3ae9-cfb8-3e0e-818b-c883ef6066be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/c03da6a3-8a6c-3375-a85a-97a8fae94902.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/c1896c31-8159-3c75-9e16-fc454b66b2cc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/ca1bc45b-4820-318c-8fd3-5eba4f447561.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/cf6fbb5f-ecf0-3695-8c0e-427c205e2096.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/e9573f2b-d40d-3861-93a9-09f57907533d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/f861b4cb-4ad2-3047-bede-1f92822d0050.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/fd31ce15-3baa-3523-8ee4-307bb606ee39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/56f01d2a-1301-31e7-9d05-beb3615c471c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/56f01d2a-1301-31e7-9d05-beb3615c471c.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/56f01d2a-1301-31e7-9d05-beb3615c471c.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/56f01d2a-1301-31e7-9d05-beb3615c471c.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/java/iceman/thefrozenmod/client/thefrozenmodClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/java/iceman/thefrozenmod/client/thefrozenmodClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iceman/thefrozenmod/modItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iceman/thefrozenmod/modItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iceman/thefrozenmod/modItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iceman/thefrozenmod/ModItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/iceman/thefrozenmod/thefrozenmod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iceman/thefrozenmod/thefrozenmod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/items/suspicious_substance.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/items/cool_item.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/models/item/suspicious_substance.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/models/item/cool_item.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/textures/item/suspicious_substance.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/thefrozenmod/textures/item/cool_item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thefrozenmod.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/thefrozenmod.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +90,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ExperiementalFoodEffects" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,7 +108,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -241,9 +125,10 @@
     "Gradle.TheFrozenMod [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "BlockClass",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Andrew/IdeaProjects/TheFrozenMod/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-c2b31d572c/1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2/minecraft-common-c2b31d572c-1.21-net.fabricmc.yarn.1_21.1.21+build.9-v2-sources.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -296,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744947051947</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated to be compatible with kaupenjoe's tutorial">
+      <option name="closed" value="true" />
+      <created>1745023428496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745023428496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +206,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first item!" />
     <MESSAGE value="Testing consumablecomponent maker function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing consumablecomponent maker function" />
+    <MESSAGE value="updated to be compatible with kaupenjoe's tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to be compatible with kaupenjoe's tutorial" />
   </component>
 </project>
