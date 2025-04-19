@@ -4,9 +4,13 @@
   "version": "${version}",
 
   "name": "TheFrozenMod",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Modpack by iceman",
+  "authors": [
+    "Iceman"
+  ],
+  "contact": {
+    "Discord": "Iceymany"
+  },
 
   "license": "MIT",
   "icon": "assets/thefrozenmod/icon.png",
