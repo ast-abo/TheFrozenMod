@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thefrozenmod:item/frozenite_chisel"
+  }
+}

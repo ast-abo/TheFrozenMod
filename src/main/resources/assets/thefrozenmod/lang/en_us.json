@@ -1,0 +1,12 @@
+{
+  "item.thefrozenmod.frozenite": "Frozenite",
+  "item.thefrozenmod.raw_frozenite": "Raw Frozenite",
+  "item.thefrozenmod.frozenite_chisel": "Frozenite Chisel",
+
+  "block.thefrozenmod.frozenite_ore": "Frozenite Ore",
+  "block.thefrozenmod.frozenite_block": "Frozenite Block",
+  "block.thefrozenmod.frozenite_grass": "Frozenite Grass",
+
+  "itemgroup.thefrozenmod.frozenite_items": "Frozenite Items",
+  "itemgroup.thefrozenmod.frozenite_blocks": "Frozenite Blocks"
+}
