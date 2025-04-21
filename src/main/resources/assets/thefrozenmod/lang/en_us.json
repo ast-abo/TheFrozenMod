@@ -8,5 +8,10 @@
   "block.thefrozenmod.frozenite_grass": "Frozenite Grass",
 
   "itemgroup.thefrozenmod.frozenite_items": "Frozenite Items",
-  "itemgroup.thefrozenmod.frozenite_blocks": "Frozenite Blocks"
+  "itemgroup.thefrozenmod.frozenite_blocks": "Frozenite Blocks",
+
+  "tooltip.thefrozenmod.frozen_grass.tooltip": "Freeze me again and i'll turn into ice!",
+  "tooltip.thefrozenmod.frozenite_chisel.shift_down": "When shifting, blocks instantly turn to ice!",
+  "tooltip.thefrozenmod.frozenite_chisel": "Blocks freeze before turning to ice! (Shift for more info)",
+  "tooltip.thefrozenmod.ice_cubes.tooltip": "These freezing chunks of ice wake you up and make you much faster!"
 }

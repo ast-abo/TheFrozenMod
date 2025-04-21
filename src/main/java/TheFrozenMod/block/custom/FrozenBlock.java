@@ -1,8 +1,6 @@
 package TheFrozenMod.block.custom;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.IceBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -19,15 +17,13 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class FrozenBlock extends IceBlock {
-    private final Block DefualtBlock;
 
-    public FrozenBlock(Settings settings, Block DefualtBlock) {
+    public FrozenBlock(Settings settings) {
         super(settings);
-        this.DefualtBlock = DefualtBlock;
     }
 
-    public BlockState getMeltState() {
-        return this.DefualtBlock.getDefaultState();
+    public static BlockState getMeltedState() {
+        return Blocks.GRASS_BLOCK.getDefaultState();
     }
 
     @Override
@@ -46,13 +42,14 @@ public class FrozenBlock extends IceBlock {
         if (world.getDimension().ultrawarm()) {
             world.removeBlock(pos, false);
         } else {
-            world.setBlockState(pos, getMeltState());
-            world.updateNeighbor(pos, getMeltState().getBlock(), pos);
+            world.setBlockState(pos, getMeltedState());
+            world.updateNeighbor(pos, getMeltedState().getBlock(), pos);
         }
     }
 
     @Override
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+        tooltip.add(Text.translatable("tooltip.thefrozenmod.frozen_grass.tooltip"));
         super.appendTooltip(stack, context, tooltip, options);
     }
 }

@@ -30,8 +30,7 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.GRASS)
                     .requiresTool()
                     .ticksRandomly()
-            , Blocks.GRASS_BLOCK)
-    );
+    ));
 
     public static final Block FROZENITE_ORE = registerBlock("frozenite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), (AbstractBlock.Settings.create()
