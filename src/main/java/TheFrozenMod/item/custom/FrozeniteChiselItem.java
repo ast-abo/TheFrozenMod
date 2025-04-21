@@ -14,6 +14,7 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 
 import java.util.Map;
+import java.util.Objects;
 
 
 public class FrozeniteChiselItem extends Item {
@@ -35,7 +36,7 @@ public class FrozeniteChiselItem extends Item {
             world.setBlockState(context.getBlockPos(), CHISEL_MAP.getOrDefault(clickedBlock, Blocks.ICE).getDefaultState());
 
             context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                    item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                    item -> Objects.requireNonNull(context.getPlayer()).sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
             world.playSound(null, context.getBlockPos(), SoundEvents.ENTITY_PLAYER_HURT_FREEZE, SoundCategory.BLOCKS);
         }
